@@ -1,409 +1,409 @@
-[2024-11-01 09:54:01] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-11-01 09:54:01] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
-[2024-11-01 09:54:01] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-11-01 09:54:01] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-11-01 09:54:01] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-11-01 09:54:01] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-11-01 09:54:01] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841\
-[2024-11-01 09:54:01] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/prajwalrangegowda-landing-page/
-[2024-11-01 09:54:01] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-11-01 09:54:01] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-01 09:54:01] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-01 09:54:01] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2024-11-01 09:54:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/
-[2024-11-01 09:54:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2024-11-01 09:54:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a539af91a-1RFCcn.tmp
-[2024-11-01 09:54:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/?simply_static_page=145
-[2024-11-01 09:54:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/?simply_static_page=145
-[2024-11-01 09:54:02] [class-ss-url-fetcher.php:103] Filesize: 81555 bytes
-[2024-11-01 09:54:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-11-01 09:54:02] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-11-01 09:54:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a539af91a-1RFCcn.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/index.html
-[2024-11-01 09:54:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:02] [class-ss-fetch-urls-task.php:159] Adding 24 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:1356596255cfe066822d9787f125f337bc006f42===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2024-11-01 09:54:03] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-01 09:54:03] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-01 09:54:03] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:69] Total pages: 24; Pages remaining: 23
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b1f6d3-ynHzns.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page?simply_static_page=146
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page?simply_static_page=146
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 378 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/prajwalrangegowda-landing-page/
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-Copy.png
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b28283-zFo0gw.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-Copy.png?simply_static_page=147
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-Copy.png?simply_static_page=147
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 39504 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/PRA_full-logo-Copy.png
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b28283-zFo0gw.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/uploads/2024/11/PRA_full-logo-Copy.png
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:afbe9d7f0e88e592ccd60de01ed7d9592a87afac===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b2d94a-ixftvr.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=148
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=148
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b2d94a-ixftvr.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/view.min.js
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b38970-EzKGZ2.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/view.min.js?simply_static_page=149
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/view.min.js?simply_static_page=149
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b38970-EzKGZ2.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-includes/blocks/navigation/view.min.js
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/hooks.min.js
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b445e3-tW3cyj.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/hooks.min.js?simply_static_page=150
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/hooks.min.js?simply_static_page=150
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b445e3-tW3cyj.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-includes/js/dist/hooks.min.js
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/i18n.min.js
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b5429e-Cy6LyY.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/i18n.min.js?simply_static_page=151
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/i18n.min.js?simply_static_page=151
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b5429e-Cy6LyY.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-includes/js/dist/i18n.min.js
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/swv/js/index.js
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b62e4d-rsz6fy.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=152
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=152
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 11513 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/swv/js/index.js
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b62e4d-rsz6fy.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/plugins/contact-form-7/includes/swv/js/index.js
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:ad12044651ffac0badcd0e42f32edef91678b1ff===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/js/index.js
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b720f3-l6qihv.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=153
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=153
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 13423 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/js/index.js
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b720f3-l6qihv.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/plugins/contact-form-7/includes/js/index.js
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:0c8258ee3cbe887b0e77ff79db940fadfe56f95e===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-circular.png
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b805ba-Tb7q5y.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-circular.png?simply_static_page=154
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-circular.png?simply_static_page=154
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 20657 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/PRA_full-logo-circular.png
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b805ba-Tb7q5y.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/uploads/2024/11/PRA_full-logo-circular.png
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:56dd58391f1923e161b46a715584860b25a4b115===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/feed/
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b8cb2c-6cp7tS.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/feed/?simply_static_page=155
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/feed/?simply_static_page=155
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b8cb2c-6cp7tS.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/feed/index.html
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:94c6886cc87b6999d47b96c192137dca97c31343===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/comments/feed/
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53b99f68-rphDV2.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/comments/feed/?simply_static_page=156
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/comments/feed/?simply_static_page=156
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 1622 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53b99f68-rphDV2.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/comments/feed/index.html
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:484895fdb56e3629bc7cf041c11eb6d6051000c7===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/style.min.css
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53ba420b-RtVmes.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/style.min.css?simply_static_page=157
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/style.min.css?simply_static_page=157
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53ba420b-RtVmes.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-includes/blocks/navigation/style.min.css
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/css/styles.css
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53bb2910-JlekzA.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=158
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=158
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 2894 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/css/styles.css
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53bb2910-JlekzA.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/plugins/contact-form-7/includes/css/styles.css
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:dbc9c4139e49d0d9fb41b7191aad1a2db6c555fd===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-json/
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/prajwalrangegowda-landing-page/wp-json/
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/xmlrpc.php
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/prajwalrangegowda-landing-page/xmlrpc.php
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/interactivity.min.js
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53bc1c89-jGqEfk.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/interactivity.min.js?simply_static_page=161
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/interactivity.min.js?simply_static_page=161
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53bc1c89-jGqEfk.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-includes/js/dist/interactivity.min.js
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53bd239d-nbErNP.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=162
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=162
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53bd239d-nbErNP.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53bdc387-OvQjty.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=163
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=163
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53bdc387-OvQjty.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53be7302-rMZvcb.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=164
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=164
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53be7302-rMZvcb.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:03] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-11-01 09:54:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 24
-[2024-11-01 09:54:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53bf2147-HDPCZw.tmp
-[2024-11-01 09:54:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=165
-[2024-11-01 09:54:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=165
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53bf2147-HDPCZw.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:04] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Anta-Regular.ttf
-[2024-11-01 09:54:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 24
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53c08fee-uTZlfD.tmp
-[2024-11-01 09:54:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Anta-Regular.ttf?simply_static_page=166
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Anta-Regular.ttf?simply_static_page=166
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:103] Filesize: 73740 bytes
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/Anta-Regular.ttf
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53c08fee-uTZlfD.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/uploads/fonts/Anta-Regular.ttf
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:04] [class-ss-page.php:119] Checking Content Identical:e3e740580b8ba422bd33c18e18a00ac684a1553a===. Value: FALSE
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf
-[2024-11-01 09:54:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 24
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53c0e464-ua046F.tmp
-[2024-11-01 09:54:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf?simply_static_page=167
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf?simply_static_page=167
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:103] Filesize: 404112 bytes
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53c0e464-ua046F.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:04] [class-ss-page.php:119] Checking Content Identical:92d0e87485dff4f41184e3ae9497c5d1795c1827===. Value: FALSE
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf
-[2024-11-01 09:54:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 24
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53c19316-fjrUoi.tmp
-[2024-11-01 09:54:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf?simply_static_page=168
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf?simply_static_page=168
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:103] Filesize: 394140 bytes
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53c19316-fjrUoi.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:04] [class-ss-page.php:119] Checking Content Identical:debd10e57fb07dd24187c41679885129449c1435===. Value: FALSE
-[2024-11-01 09:54:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 24 pages/files
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:69] Total pages: 25; Pages remaining: 1
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/feed/index.xml
-[2024-11-01 09:54:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 25
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53c2078c-707bgL.tmp
-[2024-11-01 09:54:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/feed/index.xml?simply_static_page=169
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/feed/index.xml?simply_static_page=169
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:103] Filesize: 1723 bytes
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53c2078c-707bgL.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841/feed/index.xml
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-11-01 09:54:04] [class-ss-page.php:119] Checking Content Identical:74a1a79b86599682739a23b4931d5c648a8c87ae===. Value: FALSE
-[2024-11-01 09:54:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 24 of 25 pages/files
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-11-01 09:54:04] [class-ss-fetch-urls-task.php:69] Total pages: 25; Pages remaining: 0
-[2024-11-01 09:54:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 25 of 25 pages/files
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-11-01 09:54:04] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-11-01 09:54:04] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724a53c2ef1b-FyhN5D.tmp
-[2024-11-01 09:54:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/1730454845?simply_static_page=0
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/1730454845?simply_static_page=0
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:103] Filesize: 62191 bytes
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-11-01 09:54:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724a53c2ef1b-FyhN5D.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730454841\404/index.html
-[2024-11-01 09:54:04] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-11-01 09:54:05] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-11-01 09:54:05] [class-ss-page.php:119] Checking Content Identical:7520d48a2b013c89727081f6b8ee551dab070079===. Value: FALSE
-[2024-11-01 09:54:05] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-11-01 09:54:05] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-11-01 09:54:05] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-11-01 09:54:05] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-11-01 09:54:05] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 22 of 22 files
-[2024-11-01 09:54:05] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/
-[2024-11-01 09:54:05] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/2024/11
-[2024-11-01 09:54:05] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/images
-[2024-11-01 09:54:05] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/blocks/navigation
-[2024-11-01 09:54:05] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/js/dist
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/js/dist
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/swv/js
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/js
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/2024/11
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/feed
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/comments/feed
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/blocks/navigation
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/css
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/js/dist
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/inter
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/fonts
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/fonts
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/fonts
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/feed
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:22. Processed Pages: 22
-[2024-11-01 09:54:06] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 22 of 22 files
-[2024-11-01 09:54:06] [trait-can-process-pages.php:110] Total pages: 22; Pages remaining: 0
-[2024-11-01 09:54:06] [class-ss-transfer-files-locally-task.php:243] Transferring 404 Page
-[2024-11-01 09:54:06] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://prajwalrangegowda.github.io/prajwalrangegowda-landing-page/" target="_blank">https://prajwalrangegowda.github.io/prajwalrangegowda-landing-page/</a>
-[2024-11-01 09:54:06] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-11-01 09:54:06] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-11-01 09:54:06] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-11-01 09:54:06] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-11-01 09:54:06] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-11-01 09:54:06] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-11-01 09:54:06] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-11-01 09:54:06] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:05
+[2024-11-01 10:19:12] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-01 10:19:12] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-11-01 10:19:12] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-01 10:19:13] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-01 10:19:13] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-01 10:19:13] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-01 10:19:13] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352\
+[2024-11-01 10:19:13] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/prajwalrangegowda-landing-page/
+[2024-11-01 10:19:13] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-01 10:19:13] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-01 10:19:13] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-01 10:19:13] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-11-01 10:19:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/
+[2024-11-01 10:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-11-01 10:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab214e872-JxpjZH.tmp
+[2024-11-01 10:19:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/?simply_static_page=170
+[2024-11-01 10:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/?simply_static_page=170
+[2024-11-01 10:19:13] [class-ss-url-fetcher.php:103] Filesize: 82000 bytes
+[2024-11-01 10:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-01 10:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-11-01 10:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab214e872-JxpjZH.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/index.html
+[2024-11-01 10:19:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:159] Adding 24 URLs to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:14] [class-ss-page.php:119] Checking Content Identical:4c40ae39fbf0ff8128ab08f8313412d174b35282===. Value: FALSE
+[2024-11-01 10:19:14] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-11-01 10:19:14] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-01 10:19:14] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-01 10:19:14] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:69] Total pages: 24; Pages remaining: 23
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab2299e5c-DCML1a.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page?simply_static_page=171
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page?simply_static_page=171
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:103] Filesize: 378 bytes
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/prajwalrangegowda-landing-page/
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-Copy-1.png
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab229f59f-zs6Pqq.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-Copy-1.png?simply_static_page=172
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-Copy-1.png?simply_static_page=172
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:103] Filesize: 39504 bytes
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/PRA_full-logo-Copy-1.png
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab229f59f-zs6Pqq.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/uploads/2024/11/PRA_full-logo-Copy-1.png
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:14] [class-ss-page.php:119] Checking Content Identical:afbe9d7f0e88e592ccd60de01ed7d9592a87afac===. Value: FALSE
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab22a763a-XWNxiv.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=173
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=173
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab22a763a-XWNxiv.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:14] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/view.min.js
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab22b0050-CnctIO.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/view.min.js?simply_static_page=174
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/view.min.js?simply_static_page=174
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab22b0050-CnctIO.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-includes/blocks/navigation/view.min.js
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:14] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/hooks.min.js
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab22ba7df-LUSAFa.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/hooks.min.js?simply_static_page=175
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/hooks.min.js?simply_static_page=175
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab22ba7df-LUSAFa.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-includes/js/dist/hooks.min.js
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:14] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/i18n.min.js
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab22c949e-SwktvZ.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/i18n.min.js?simply_static_page=176
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/i18n.min.js?simply_static_page=176
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab22c949e-SwktvZ.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-includes/js/dist/i18n.min.js
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:14] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab22d57e1-40hxJV.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=177
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/swv/js/index.js?simply_static_page=177
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:103] Filesize: 11513 bytes
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab22d57e1-40hxJV.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/plugins/contact-form-7/includes/swv/js/index.js
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:14] [class-ss-page.php:119] Checking Content Identical:ad12044651ffac0badcd0e42f32edef91678b1ff===. Value: FALSE
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab22e5259-Tc4o5D.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=178
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/js/index.js?simply_static_page=178
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:103] Filesize: 13423 bytes
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab22e5259-Tc4o5D.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/plugins/contact-form-7/includes/js/index.js
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:14] [class-ss-page.php:119] Checking Content Identical:0c8258ee3cbe887b0e77ff79db940fadfe56f95e===. Value: FALSE
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-circular.png
+[2024-11-01 10:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 24
+[2024-11-01 10:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab22f1885-68ts4G.tmp
+[2024-11-01 10:19:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-circular.png?simply_static_page=179
+[2024-11-01 10:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/2024/11/PRA_full-logo-circular.png?simply_static_page=179
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 20657 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/PRA_full-logo-circular.png
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab22f1885-68ts4G.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/uploads/2024/11/PRA_full-logo-circular.png
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:56dd58391f1923e161b46a715584860b25a4b115===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/feed/
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab23064e9-aibpXX.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/feed/?simply_static_page=180
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/feed/?simply_static_page=180
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab23064e9-aibpXX.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/feed/index.html
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:94c6886cc87b6999d47b96c192137dca97c31343===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/comments/feed/
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab2313815-sTpC3N.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/comments/feed/?simply_static_page=181
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/comments/feed/?simply_static_page=181
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 1622 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab2313815-sTpC3N.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/comments/feed/index.html
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:484895fdb56e3629bc7cf041c11eb6d6051000c7===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/style.min.css
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab2320711-CCRkyS.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/style.min.css?simply_static_page=182
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/blocks/navigation/style.min.css?simply_static_page=182
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab2320711-CCRkyS.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-includes/blocks/navigation/style.min.css
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab232d6df-CKmz7r.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=183
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/css/styles.css?simply_static_page=183
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 2894 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab232d6df-CKmz7r.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/plugins/contact-form-7/includes/css/styles.css
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:dbc9c4139e49d0d9fb41b7191aad1a2db6c555fd===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-json/
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/prajwalrangegowda-landing-page/wp-json/
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/xmlrpc.php
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/prajwalrangegowda-landing-page/xmlrpc.php
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/interactivity.min.js
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab233cbf8-tl3zj6.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/interactivity.min.js?simply_static_page=186
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-includes/js/dist/interactivity.min.js?simply_static_page=186
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab233cbf8-tl3zj6.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-includes/js/dist/interactivity.min.js
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab234d6b6-LtKLqD.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=187
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=187
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab234d6b6-LtKLqD.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab2353932-WOK1bs.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=188
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=188
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab2353932-WOK1bs.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab2363d53-lIRzJG.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=189
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=189
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab2363d53-lIRzJG.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab236f95a-TYlN9d.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=190
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=190
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab236f95a-TYlN9d.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Anta-Regular.ttf
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab2378c82-a6sPLl.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Anta-Regular.ttf?simply_static_page=191
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Anta-Regular.ttf?simply_static_page=191
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 73740 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/Anta-Regular.ttf
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab2378c82-a6sPLl.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/uploads/fonts/Anta-Regular.ttf
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:e3e740580b8ba422bd33c18e18a00ac684a1553a===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab23853fb-NcV1hX.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf?simply_static_page=192
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf?simply_static_page=192
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 404112 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab23853fb-NcV1hX.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/uploads/fonts/Montserrat-Italic-VariableFont_wght.ttf
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:92d0e87485dff4f41184e3ae9497c5d1795c1827===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 24
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab239570c-lU1sD6.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf?simply_static_page=193
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf?simply_static_page=193
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 394140 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab239570c-lU1sD6.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/wp-content/uploads/fonts/Montserrat-VariableFont_wght.ttf
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:debd10e57fb07dd24187c41679885129449c1435===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 24 pages/files
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:69] Total pages: 25; Pages remaining: 1
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/prajwalrangegowda-landing-page/feed/index.xml
+[2024-11-01 10:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 25
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab23a36c5-s04lIU.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/feed/index.xml?simply_static_page=194
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/feed/index.xml?simply_static_page=194
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:103] Filesize: 1723 bytes
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab23a36c5-s04lIU.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352/feed/index.xml
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-01 10:19:15] [class-ss-page.php:119] Checking Content Identical:74a1a79b86599682739a23b4931d5c648a8c87ae===. Value: FALSE
+[2024-11-01 10:19:15] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 24 of 25 pages/files
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-01 10:19:15] [class-ss-fetch-urls-task.php:69] Total pages: 25; Pages remaining: 0
+[2024-11-01 10:19:15] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 25 of 25 pages/files
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-11-01 10:19:15] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-11-01 10:19:15] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\prajw\AppData\Local\Temp/6724ab23ac9ee-qIJHeL.tmp
+[2024-11-01 10:19:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/prajwalrangegowda-landing-page/1730456356?simply_static_page=0
+[2024-11-01 10:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/prajwalrangegowda-landing-page/1730456356?simply_static_page=0
+[2024-11-01 10:19:16] [class-ss-url-fetcher.php:103] Filesize: 69063 bytes
+[2024-11-01 10:19:16] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-11-01 10:19:16] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-11-01 10:19:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\prajw\AppData\Local\Temp/6724ab23ac9ee-qIJHeL.tmp to C:\xampp\htdocs\prajwalrangegowda-landing-page/wp-content/uploads\simply-static\temp-files/simply-static-1-1730456352\404/index.html
+[2024-11-01 10:19:16] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-11-01 10:19:16] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-11-01 10:19:16] [class-ss-page.php:119] Checking Content Identical:e737ccd4fb35c11f87b1c7bc26d542ce494d214b===. Value: FALSE
+[2024-11-01 10:19:16] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-11-01 10:19:16] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 22 of 22 files
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/2024/11
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/images
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/blocks/navigation
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/js/dist
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/js/dist
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/swv/js
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/js
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/2024/11
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/feed
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/comments/feed
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/blocks/navigation
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/plugins/contact-form-7/includes/css
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-includes/js/dist
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/inter
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/fonts
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/fonts
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/wp-content/uploads/fonts
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/prajwalrangegowda-landing-page/feed
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:22. Processed Pages: 22
+[2024-11-01 10:19:16] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 22 of 22 files
+[2024-11-01 10:19:16] [trait-can-process-pages.php:110] Total pages: 22; Pages remaining: 0
+[2024-11-01 10:19:16] [class-ss-transfer-files-locally-task.php:243] Transferring 404 Page
+[2024-11-01 10:19:16] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://prajwalrangegowda.github.io/prajwalrangegowda-landing-page/" target="_blank">https://prajwalrangegowda.github.io/prajwalrangegowda-landing-page/</a>
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-11-01 10:19:16] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-11-01 10:19:16] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-11-01 10:19:16] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:04
